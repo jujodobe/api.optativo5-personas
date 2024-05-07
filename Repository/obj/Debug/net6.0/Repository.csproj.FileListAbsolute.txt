@@ -10,3 +10,17 @@ C:\Repositorio\Consola .net\Repository\Repository\obj\Debug\net6.0\Repository.cs
 C:\Repositorio\Consola .net\Repository\Repository\obj\Debug\net6.0\Repository.dll
 C:\Repositorio\Consola .net\Repository\Repository\obj\Debug\net6.0\ref\Repository.dll
 C:\Repositorio\Consola .net\Repository\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\bin\Debug\net6.0\Repository.dll
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.dll
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Workspace\Proyectos\Optativo5\api.optativo5-personas\Repository\obj\Debug\net6.0\ref\Repository.dll

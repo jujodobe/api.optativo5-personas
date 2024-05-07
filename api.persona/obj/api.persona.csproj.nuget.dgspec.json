@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorio\\Consola .net\\Repository\\api.persona\\api.persona.csproj": {}
+    "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\api.persona\\api.persona.csproj": {}
   },
   "projects": {
-    "C:\\Repositorio\\Consola .net\\Repository\\api.persona\\api.persona.csproj": {
+    "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\api.persona\\api.persona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorio\\Consola .net\\Repository\\api.persona\\api.persona.csproj",
+        "projectUniqueName": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\api.persona\\api.persona.csproj",
         "projectName": "api.persona",
-        "projectPath": "C:\\Repositorio\\Consola .net\\Repository\\api.persona\\api.persona.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorio\\Consola .net\\Repository\\api.persona\\obj\\",
+        "projectPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\api.persona\\api.persona.csproj",
+        "packagesPath": "C:\\Users\\fcoluchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\api.persona\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fcoluchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.310\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositorio\\Consola .net\\Repository\\Service\\Service.csproj": {
-                "projectPath": "C:\\Repositorio\\Consola .net\\Repository\\Service\\Service.csproj"
+              "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\Service.csproj": {
+                "projectPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\Service.csproj"
               }
             }
           }
@@ -47,6 +45,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -58,10 +62,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -70,24 +93,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Repositorio\\Consola .net\\Repository\\Repository\\Repository.csproj": {
+    "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorio\\Consola .net\\Repository\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Repositorio\\Consola .net\\Repository\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorio\\Consola .net\\Repository\\Repository\\obj\\",
+        "projectPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\fcoluchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fcoluchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,9 +137,19 @@
               "target": "Package",
               "version": "[2.1.35, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
             "Npgsql": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[6.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.22, )"
             }
           },
           "imports": [
@@ -128,33 +158,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Repositorio\\Consola .net\\Repository\\Service\\Service.csproj": {
+    "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorio\\Consola .net\\Repository\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Repositorio\\Consola .net\\Repository\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorio\\Consola .net\\Repository\\Service\\obj\\",
+        "projectPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\fcoluchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fcoluchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,8 +210,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositorio\\Consola .net\\Repository\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Repositorio\\Consola .net\\Repository\\Repository\\Repository.csproj"
+              "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Repository\\Repository.csproj"
               }
             }
           }
@@ -189,16 +231,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.24, 6.0.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
         }
       }
     }
