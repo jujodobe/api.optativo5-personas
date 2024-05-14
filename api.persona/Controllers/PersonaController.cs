@@ -30,5 +30,26 @@ namespace api.persona.Controllers
             int resultado = personaService2.Agregar(persona.Nombre, persona.Apellido, persona.AnhoNacimiento);
             return Ok(resultado);
         }
+
+        [HttpGet("{id}")]
+        public ActionResult ObtenerPorId([FromRoute] int id)
+        {
+            var resultado = personaService2.ObtenerPorId(id);
+            return Ok(resultado);
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Actualizar([FromRoute] int id, [FromBody] string nombre)
+        {
+            var resultado = personaService2.Actualizar(id, nombre);
+            return Ok(resultado);
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult Eliminar([FromRoute] int id)
+        {
+            var resultado = personaService2.Eliminar(id);
+            return Ok(resultado);
+        }
     }
 }

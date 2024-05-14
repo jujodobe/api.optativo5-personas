@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Repository.Configuraciones;
 using Repository.Entidades;
 
 namespace Repository.Contexts;
@@ -8,12 +9,12 @@ public class ContextoAplicacionDB : DbContext
 {
     //Representa mi tabla Personas
     public DbSet<Persona> Personas { get; set; }
+    public DbSet<Cuenta> Cuentas { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder
-            .Entity<Persona>()
-            .HasKey(p => p.Id);
+        modelBuilder.ApplyConfiguration(new PersonaConfiguracion());
+        modelBuilder.ApplyConfiguration(new CuentaConfiguracion());
 
         base.OnModelCreating(modelBuilder);
     }

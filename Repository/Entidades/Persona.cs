@@ -12,4 +12,7 @@ public class Persona
     public string Nombre { get; set; } = "";
     public int AnhoNacimiento { get; set; }
     public string Apellido { get; set; } = "";
+
+    //Relaciones
+    public ICollection<Cuenta> Cuentas { get; set; }
 }

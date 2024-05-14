@@ -773,19 +773,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fcoluchi\\.nuget\\packages\\": {}
+    "C:\\Users\\Fernando\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\Service.csproj",
+      "projectUniqueName": "D:\\Proyectos\\api.optativo5-personas\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\fcoluchi\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Service\\obj\\",
+      "projectPath": "D:\\Proyectos\\api.optativo5-personas\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\api.optativo5-personas\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fcoluchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -799,8 +799,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Workspace\\Proyectos\\Optativo5\\api.optativo5-personas\\Repository\\Repository.csproj"
+            "D:\\Proyectos\\api.optativo5-personas\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\Proyectos\\api.optativo5-personas\\Repository\\Repository.csproj"
             }
           }
         }
@@ -809,6 +809,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -825,26 +830,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.24, 6.0.24]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.24, 6.0.24]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.24, 6.0.24]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
