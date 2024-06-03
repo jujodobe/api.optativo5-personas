@@ -24,9 +24,14 @@ public class PersonaService2
         return _repository.ObtenerPorId(id);
     }
 
-    public Persona Actualizar(int id, string nombre)
+    //public Persona Actualizar(int id, string nombre)
+    //{
+    //    return _repository.Actualizar(id, nombre);
+    //}
+
+    public Persona Actualizar(ActualizarPersonaRequest request)
     {
-        return _repository.Actualizar(id, nombre);
+        return _repository.Actualizar(request);
     }
 
     public string Eliminar(int id)

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GImmWv5DdrUgGoZ7mmKPdkrl2xy+9ii0QSWJcLTLsTOrVrucodkSalVh/JfUlBudZxJZh++Fguww1L+9xlzSxg==",
+  "dgSpecHash": "sZKhnq0BJrXUe3+f6J0SOCK28COqv8vAH3EyjTVgHkq17oe9ai27ZKRCvohfkbCPrFT5zzFU1y8Gjzt0+lfkEQ==",
   "success": true,
   "projectFilePath": "D:\\Proyectos\\api.optativo5-personas\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fernando\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Fernando\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Fernando\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Fernando\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Fernando\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Fernando\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.22\\microsoft.entityframeworkcore.6.0.22.nupkg.sha512",
     "C:\\Users\\Fernando\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.22\\microsoft.entityframeworkcore.abstractions.6.0.22.nupkg.sha512",

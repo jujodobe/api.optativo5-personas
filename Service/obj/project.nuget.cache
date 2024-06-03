@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yWdVoebsAYLBuW1eQQRBsSJs5QPnqsriDQNA9dw7DzKRdqWRQg+UqcMKppTWnHeIz2APy7Ql22MMqc6wcyJgww==",
+  "dgSpecHash": "wPPVXBupZZfhT4p/4HuloPH3MzxkTNz5G962RnutfTkUpcQCVetW48/s5pHZSQymFYHqP+biDz6Bf/r5F88/GQ==",
   "success": true,
   "projectFilePath": "D:\\Proyectos\\api.optativo5-personas\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fernando\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Fernando\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Fernando\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Fernando\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Fernando\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.22\\microsoft.entityframeworkcore.6.0.22.nupkg.sha512",
     "C:\\Users\\Fernando\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.22\\microsoft.entityframeworkcore.abstractions.6.0.22.nupkg.sha512",
     "C:\\Users\\Fernando\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.22\\microsoft.entityframeworkcore.analyzers.6.0.22.nupkg.sha512",

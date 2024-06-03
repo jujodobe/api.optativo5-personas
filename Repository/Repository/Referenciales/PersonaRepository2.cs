@@ -61,16 +61,32 @@ public class PersonaRepository2
         return personaConCuentas;
     }
 
-    public Persona Actualizar(int id, string nombre)
+    //public Persona Actualizar(int id, string nombre)
+    //{
+    //    var persona = _contexto.Personas.Find(id);
+
+    //    if (persona == null)
+    //    {
+    //        throw new Exception("No se encontro a la persona con el id solicitado");
+    //    }
+
+    //    persona.Nombre = nombre;
+
+    //    _contexto.SaveChanges();
+
+    //    return persona;
+    //}
+
+    public Persona Actualizar(ActualizarPersonaRequest request)
     {
-        var persona = _contexto.Personas.Find(id);
+        var persona = _contexto.Personas.Find(request.Id);
 
         if (persona == null)
         {
             throw new Exception("No se encontro a la persona con el id solicitado");
         }
 
-        persona.Nombre = nombre;
+        persona.Nombre = request.Nombre;
 
         _contexto.SaveChanges();
 

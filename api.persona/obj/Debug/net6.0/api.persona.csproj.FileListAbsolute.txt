@@ -92,6 +92,9 @@ D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\api.persona.run
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\api.persona.dll
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\api.persona.pdb
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Dapper.dll
+D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\FluentValidation.dll
+D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Humanizer.dll
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -108,8 +111,8 @@ D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Swashbuckle.Asp
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Repository.dll
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Service.dll
-D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Service.pdb
 D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Repository.pdb
+D:\Proyectos\api.optativo5-personas\api.persona\bin\Debug\net6.0\Service.pdb
 D:\Proyectos\api.optativo5-personas\api.persona\obj\Debug\net6.0\api.persona.csproj.AssemblyReference.cache
 D:\Proyectos\api.optativo5-personas\api.persona\obj\Debug\net6.0\api.persona.GeneratedMSBuildEditorConfig.editorconfig
 D:\Proyectos\api.optativo5-personas\api.persona\obj\Debug\net6.0\api.persona.AssemblyInfoInputs.cache
