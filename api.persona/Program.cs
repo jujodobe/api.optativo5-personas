@@ -1,31 +1,23 @@
+using api.persona.Filters;
 using api.persona.Validaciones;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repository.Contexts;
 using Repository.Models;
-using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Agregar FluentValidation al programa
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddFluentValidationClientsideAdapters();
-builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+builder.Services.AddFluentValidationAutoValidation(); //Activar validaciones automaticas
+builder.Services.AddScoped<IValidator<ActualizarPersonaRequest>, ActualizarPersonaValidation>(); //Registra la clase validadora
+builder.Services.AddScoped<IValidator<CrearPersonaRequest>, CrearPersonaValidacion>(); //Registra la clase validadora
+builder.Services.AddValidatorsFromAssemblyContaining<ActualizarPersonaRequest>(); //Registra todas las clases a validar
 
-// Add services to the container.
-builder.Services.AddControllers()
-    .ConfigureApiBehaviorOptions(options =>
-    {
-        options.InvalidModelStateResponseFactory = context =>
-        {
-            var result = new BadRequestObjectResult(context.ModelState);
-            // Aquí puedes agregar lógica adicional para personalizar la respuesta
-            return result;
-        };
-    });
-
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<FiltroValidacion>();
+    options.Filters.Add<FiltroImprimirInfo>();
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -37,7 +29,6 @@ builder.Services.AddDbContext<ContextoAplicacionDB>(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -46,4 +37,5 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();

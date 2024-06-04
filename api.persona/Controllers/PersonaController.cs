@@ -29,13 +29,8 @@ namespace api.persona.Controllers
         }
 
         [HttpPost("entity-framework")]
-        public ActionResult AgregarConEntity([FromBody] Persona persona)
+        public ActionResult AgregarConEntity([FromBody] CrearPersonaRequest persona)
         {
-            if(persona.AnhoNacimiento < 1900)
-            {
-                throw new Exception("El año de nacimiento debe ser mayor a 1900");
-            }
-
             int resultado = personaService2.Agregar(persona.Nombre, persona.Apellido, persona.AnhoNacimiento);
             return Ok(resultado);
         }
